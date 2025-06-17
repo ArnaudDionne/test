@@ -3,5 +3,6 @@
 from .world import World, Tile
 from .entity import Entity
 from .game import Game
+from .renderer import Renderer
 
-__all__ = ["World", "Tile", "Entity", "Game"]
+__all__ = ["World", "Tile", "Entity", "Game", "Renderer"]

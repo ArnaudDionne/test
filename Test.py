@@ -1,9 +1,9 @@
 from engine import Game, Entity
 
 if __name__ == "__main__":
-    game = Game(5, 5)
-    player = Entity(2, 2, "@")
+    game = Game(10, 10)
+    player = Entity(5, 5, "@")
     game.add_entity(player)
-    game.run(steps=1)
-    print(f"Player location: {player.x}, {player.y}")
+    # Run with a Pygame window until it is closed
+    game.run(steps=None)
 
